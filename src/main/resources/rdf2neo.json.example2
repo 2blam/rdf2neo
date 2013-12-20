@@ -1,14 +1,41 @@
-{
-  "__comment": "this JSON file supports new freebase data format",
-  
-  "outputGraphPath":"<path_to_graph_output_directory>",
-  "gzippedTurtleFile":"<path_to_freebase_gz_file_directory>/<freebase_gz_file_name>.gz",
-  "nodeTypeSubjects": ["<http://rdf.freebase.com/ns/chemistry.chemical_compound>"],
-  "nodeTypePredicates": ["<http://rdf.freebase.com/ns/type.type.instance>"],  
+{  
+  "outputGraphPath":"c:/output/",    
+  "gzippedTurtleFile":"c:/input/freebase-rdf-.gz",
+  "nodeTypeSubjects": ["<http://rdf.freebase.com/ns/people.cause_of_death>"
+                      ,"<http://rdf.freebase.com/ns/people.gender>"
+                      ,"<http://rdf.freebase.com/ns/people.person>"
+                      ,"<http://rdf.freebase.com/ns/people.marriage>"
+                      ,"<http://rdf.freebase.com/ns/people.sibling_relationship>"
+                      ,"<http://rdf.freebase.com/ns/people.deceased_person>"
+                      ,"<http://rdf.freebase.com/ns/people.profession>"
+                      ,"<http://rdf.freebase.com/ns/people.family_name>"
+                      ,"<http://rdf.freebase.com/ns/people.family>"
+                      ,"<http://rdf.freebase.com/ns/people.marriage_union_type>"
+                      ,"<http://rdf.freebase.com/ns/people.wedding_venue>"
+                      ,"<http://rdf.freebase.com/ns/people.place_lived>"
+                      ,"<http://rdf.freebase.com/ns/people.ethnicity>"
+                      ,"<http://rdf.freebase.com/ns/people.american_indian_group>"
+                      ,"<http://rdf.freebase.com/ns/people.canadian_aboriginal_group>"
+                      ,"<http://rdf.freebase.com/ns/people.chinese_ethnic_group>"
+                      ,"<http://rdf.freebase.com/ns/people.place_of_interment>"
+                      ,"<http://rdf.freebase.com/ns/people.family_member>"
+                      ,"<http://rdf.freebase.com/ns/people.measured_person>"
+                      ,"<http://rdf.freebase.com/ns/people.human_measurement>"
+                      ,"<http://rdf.freebase.com/ns/people.measured_body_part>"
+                      ,"<http://rdf.freebase.com/ns/people.professional_field>"
+                      ,"<http://rdf.freebase.com/ns/people.appointment>"
+                      ,"<http://rdf.freebase.com/ns/people.appointment_nominee>"
+                      ,"<http://rdf.freebase.com/ns/people.appointed_role>"
+                      ,"<http://rdf.freebase.com/ns/people.appointee>"
+                      ,"<http://rdf.freebase.com/ns/people.appointment_nomination>"
+                      ,"<http://rdf.freebase.com/ns/people.appointer>"],
+  "nodeTypePredicates": ["<http://rdf.freebase.com/ns/type.type.instance>"],
   "ignoreSubjects":[],
   "ignorePredicates":[],
   "ignoreObjects":[],
   "ignorePredicatePrefixes":[],
   "ignoreSubjectPrefixes":[],
-  "ignoreObjectPrefixes":[] 
+  "ignoreObjectPrefixes":[],
+  "currentDBMaxNodeID":"0" 
 }
+
